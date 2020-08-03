@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 require('dotenv').config();
 
@@ -27,10 +28,12 @@ const config = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
   },
-  plugins: [new HtmlWebpackPlugin({
-    hash: true,
-    title:  'Typescript starter with webpack'
-  })]
+  plugins: [
+    new HtmlWebpackPlugin({
+      hash: true,
+      title:  'Typescript starter with webpack'
+    })
+  ]
 };
 
 // console.log('config', JSON.stringify(config, null, 2))

@@ -40,3 +40,6 @@ npm run build
 To generate a bundle in dist folder.
 
 Set NODE_ENV=production to create an uglified & optimized version
+
+## Updates
+Check [CHANGELOG](./CHANGELOG.md)
