@@ -10,15 +10,23 @@
   "author": "Eric Lara <ericzon@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.1",
     "@types/webpack": "*",
     "dotenv": "^8.2.0",
     "html-webpack-plugin": "^4.3.0",
+    "husky": "^4.2.5",
     "ts-loader": "^8.0.2",
     "typescript": "^3.9.7",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {},
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "keywords": [
     "typescript",
     "starter",
