@@ -11,10 +11,11 @@
   "license": "MIT",
   "devDependencies": {
     "@types/webpack": "*",
-    "webpack": "^4.44.1",
+    "dotenv": "^8.2.0",
     "html-webpack-plugin": "^4.3.0",
     "ts-loader": "^8.0.2",
     "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {},

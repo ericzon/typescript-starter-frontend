@@ -3,13 +3,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 require('dotenv').config();
 
-const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development';
+const isProd = process.env.NODE_ENV === 'production';
+const mode = isProd ? 'production' : 'development';
 
 console.log('webpack mode', mode);
-
-module.exports = {
+const config = {
   entry: './src/index.ts',
-  devtool: 'inline-source-map',
+  ...(isProd ? {} : { devtool: 'inline-source-map' }),
   mode,
   module: {
     rules: [
@@ -32,4 +32,8 @@ module.exports = {
     title:  'Typescript starter with webpack'
   })]
 };
+
+// console.log('config', JSON.stringify(config, null, 2))
+
+module.exports = config;
 
