@@ -1,6 +1,8 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+require('dotenv').config();
+
 const mode = process.env.NODE_ENV === 'production' ? 'production' : 'development';
 
 console.log('webpack mode', mode);
