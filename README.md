@@ -16,10 +16,10 @@ Main features:
 - Prettier
 - Checking on pre commit phase
 - editorconfig
+- Watcher
 
 More to come:
 
-- Watcher
 - Tests setup
 - Checking of tests before push
   ...

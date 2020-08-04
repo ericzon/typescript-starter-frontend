@@ -1,10 +1,11 @@
 {
-  "name": "ts-starter-webpack",
+  "name": "typescript-starter-frontend",
   "version": "0.0.3",
-  "description": "Typescript starter with Webpack",
+  "description": "Typescript starter for frontend",
   "private": true,
   "scripts": {
     "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch",
     "lint": "eslint 'src/**/*.ts'",
     "lint:staged": "npm run build && pretty-quick --staged && lint-staged",
     "format": "prettier --write 'src/**/*.ts'",

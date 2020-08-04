@@ -31,7 +31,7 @@ const config = {
   },
   plugins: [
     new webpack.ProgressPlugin(),
-    new CleanWebpackPlugin(),
+    new CleanWebpackPlugin({ cleanStaleWebpackAssets: false }),
     new HtmlWebpackPlugin({
       hash: true,
       title: 'Typescript starter with webpack',
