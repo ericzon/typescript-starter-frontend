@@ -17,6 +17,7 @@ Main features:
 - Checking on pre commit phase
 - editorconfig
 - Watcher
+- Live reloading
 
 More to come:
 
@@ -42,6 +43,20 @@ To generate a bundle in dist folder.
 
 Set NODE_ENV=production to create an uglified & optimized version
 Set NODE_ENV=development to generate a version with sourcemaps
+
+## Development
+
+Live reloading
+
+```
+npm start
+```
+
+Enable watcher
+
+```
+npm run watch
+```
 
 ## Updates
 

@@ -12,6 +12,9 @@ console.log('webpack mode', mode);
 const config = {
   entry: './src/index.ts',
   ...(isProd ? {} : { devtool: 'inline-source-map' }),
+  devServer: {
+    contentBase: './dist',
+  },
   mode,
   module: {
     rules: [
