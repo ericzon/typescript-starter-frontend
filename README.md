@@ -2,7 +2,7 @@
 
 ## Description
 
-My main objective on this repo is to have a clean base to start to code frontend in Typescript without bindings to any framework.
+My main objective on this repo is to have a clean base to start coding frontend in Typescript without bindings to any framework. It's a good starting point to write frontend libraries.
 
 Main features:
 
@@ -41,6 +41,7 @@ npm run build
 To generate a bundle in dist folder.
 
 Set NODE_ENV=production to create an uglified & optimized version
+Set NODE_ENV=development to generate a version with sourcemaps
 
 ## Updates
 

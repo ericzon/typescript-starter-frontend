@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-- add editorconfig 3f2849e
+- add .editorconfig 3f2849e
 - add linter & formatter 4668ce1
 - clean build folder automaticaly e55e075
 - configure linter & formatter on git hooks e99907e
