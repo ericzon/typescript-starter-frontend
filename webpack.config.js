@@ -1,6 +1,5 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 require('dotenv').config();
 
@@ -22,7 +21,7 @@ const config = {
     ],
   },
   resolve: {
-    extensions: [ '.tsx', '.ts', '.js' ],
+    extensions: ['.tsx', '.ts', '.js'],
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -31,12 +30,11 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({
       hash: true,
-      title:  'Typescript starter with webpack'
-    })
-  ]
+      title: 'Typescript starter with webpack',
+    }),
+  ],
 };
 
 // console.log('config', JSON.stringify(config, null, 2))
 
 module.exports = config;
-

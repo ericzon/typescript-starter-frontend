@@ -12,17 +12,17 @@ Main features:
 - Dotenv
 - Checking format of commit messages
 - Automatic changelog
-
-More to come:
-
 - Eslint
 - Prettier
 - Checking on pre commit phase
-- Watcher
 - editorconfig
+
+More to come:
+
+- Watcher
 - Tests setup
 - Checking of tests before push
-...
+  ...
 
 ## Installation
 
@@ -37,9 +37,11 @@ Add your code in src and just run:
 ```
 npm run build
 ```
+
 To generate a bundle in dist folder.
 
 Set NODE_ENV=production to create an uglified & optimized version
 
 ## Updates
+
 Check [CHANGELOG](./CHANGELOG.md)
