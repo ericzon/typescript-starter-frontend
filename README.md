@@ -58,6 +58,12 @@ Enable watcher
 npm run watch
 ```
 
+Analyse bundle:
+```
+npm run stats
+```
+and push stats.json to some of these [suggested services](https://webpack.js.org/guides/code-splitting/#bundle-analysis)
+
 ## Updates
 
 Check [CHANGELOG](./CHANGELOG.md)
