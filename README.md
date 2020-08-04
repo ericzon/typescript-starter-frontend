@@ -18,11 +18,10 @@ Main features:
 - editorconfig
 - Watcher
 - Live reloading
-
-More to come:
-
 - Tests setup
 - Checking of tests before push
+
+More to come:
   ...
 
 ## Installation
@@ -58,7 +57,15 @@ Enable watcher
 npm run watch
 ```
 
-Analyse bundle:
+## Testing
+
+We're using Jest:
+
+```
+npm t
+```
+
+## Analyse bundle
 ```
 npm run stats
 ```
