@@ -7,3 +7,5 @@ function component() {
 }
 
 document.body.appendChild(component());
+
+export default component;
