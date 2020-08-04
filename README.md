@@ -2,7 +2,7 @@
 
 ## Description
 
-My main objective on this repo is to have a clean base to start coding frontend in Typescript without bindings to any framework. It's a good starting point to write frontend libraries.
+My main objective on this repo is to have a clean base to start coding **frontend** in Typescript without bindings to any framework. It's a good starting point to write frontend libraries.
 
 Main features:
 
@@ -45,7 +45,7 @@ Set NODE_ENV=development to generate a version with sourcemaps
 
 ## Development
 
-Live reloading
+Live reloading at http://localhost:8000
 
 ```
 npm start
@@ -65,6 +65,11 @@ We're using Jest:
 npm t
 ```
 
+To run in watch mode:
+```
+npm run test:watch
+```
+
 ## Analyse bundle
 ```
 npm run stats
@@ -73,4 +78,4 @@ and push stats.json to some of these [suggested services](https://webpack.js.org
 
 ## Updates
 
-Check [CHANGELOG](./CHANGELOG.md)
+You can check updates in [CHANGELOG](./CHANGELOG.md)
