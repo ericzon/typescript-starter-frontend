@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/ericzon/typescript-starter-frontend/compare/v0.0.4...v0.0.5) (2020-08-04)
+
+
+### Features
+
+* add tests setup ([2f8ad66](https://github.com/ericzon/typescript-starter-frontend/commit/2f8ad66265002bad047c51b9fda201ab5563ed8b))
+
+
+### Bug Fixes
+
+* update test file name ([6a1e9db](https://github.com/ericzon/typescript-starter-frontend/commit/6a1e9db29c3c258862481af4eb2ef8483c2a7197))
+
 ### [0.0.4](https://github.com/ericzon/typescript-starter-frontend/compare/v0.0.3...v0.0.4) (2020-08-04)
 
 
