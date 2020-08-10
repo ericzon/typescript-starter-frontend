@@ -3,7 +3,6 @@
  * component function as **basic** example
  * @returns div element with generated text
  */
-
 function component() {
   const element = document.createElement('div');
 

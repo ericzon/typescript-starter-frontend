@@ -75,7 +75,7 @@ npm run test:watch
 
 Code docs generated with [TypeDoc](https://github.com/TypeStrong/typedoc)
 ```
-npm ruu docs
+npm run docs
 ```
 
 ## Analyse bundle
