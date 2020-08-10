@@ -20,6 +20,7 @@ Main features:
 - Live reloading
 - Tests setup
 - Checking of tests before push
+- Code docs generation
 
 More to come:
   ...
@@ -68,6 +69,13 @@ npm t
 To run in watch mode:
 ```
 npm run test:watch
+```
+
+## Docs
+
+Code docs generated with [TypeDoc](https://github.com/TypeStrong/typedoc)
+```
+npm ruu docs
 ```
 
 ## Analyse bundle

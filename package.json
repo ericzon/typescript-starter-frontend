@@ -14,7 +14,8 @@
     "test:watch": "jest --watch",
     "coverage": "jest --collect-coverage --verbose src",
     "release": "standard-version",
-    "stats": "webpack --profile --json > stats.json"
+    "stats": "webpack --profile --json > stats.json",
+    "docs": "typedoc src --ignoreCompilerErrors"
   },
   "author": "Eric Lara <ericzon@gmail.com>",
   "license": "MIT",
@@ -41,6 +42,7 @@
     "standard-version": "^8.0.2",
     "ts-jest": "^26.1.4",
     "ts-loader": "^8.0.2",
+    "typedoc": "^0.18.0",
     "typescript": "^3.9.7",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
